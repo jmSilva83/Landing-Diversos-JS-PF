@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background-image: url("../assets/images/rainbow-vortex.webp");
+  background-image: url("/assets/images/rainbow-vortex.webp");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,9 +77,9 @@ i {
   justify-content: space-around;
   display: flex;
   width: 50%;
-  border-radius: 15px;
-  background: #ae8585;
-  box-shadow: inset -10px 10px 5px #947171, inset 10px -10px 5px #c89999;
+  color: rgb(218, 193, 161);
+  border-radius: 5px;
+  background-color: rgba(165, 42, 42, 0.243);
 }
 
 header .nav-link.active:hover {
