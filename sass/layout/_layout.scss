@@ -53,6 +53,7 @@ ul {
 
   li {
     list-style: none;
+    color: rgb(218, 193, 161);
   }
 }
 
@@ -79,6 +80,7 @@ i {
   justify-content: space-around;
   display: flex;
   width: calc($ancho / 2);
+  height: auto;
   color: rgb(218, 193, 161);
   border-radius: 5px;
   background-color: rgba(165, 42, 42, 0.243);

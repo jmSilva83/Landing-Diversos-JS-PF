@@ -53,6 +53,7 @@ ul {
 }
 ul li {
   list-style: none;
+  color: rgb(218, 193, 161);
 }
 
 #mainTeam {
@@ -77,6 +78,7 @@ i {
   justify-content: space-around;
   display: flex;
   width: 50%;
+  height: auto;
   color: rgb(218, 193, 161);
   border-radius: 5px;
   background-color: rgba(165, 42, 42, 0.243);
