@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background-image: url("/assets/images/rainbow-vortex.webp");
+  background-image: linear-gradient(to right, #6d4141 35%, #ae8585 65%, antiquewhite 95%);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
