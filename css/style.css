@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background-image: url("/assets/images/rainbow-vortex.webp");
+  background-image: url("/assets/images/rainbow-vortex.webp") !important;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
