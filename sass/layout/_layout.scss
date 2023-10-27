@@ -9,6 +9,9 @@ a {
 }
 
 body {
+  ::-webkit-scrollbar {
+    display: none;
+  }
   background-image: linear-gradient(
     to right,
     #6d4141 35%,
@@ -66,11 +69,16 @@ ul {
   justify-content: space-around;
   width: $ancho;
   display: flex;
+  flex-wrap: wrap;
 
   div {
     display: contents;
     overflow: auto;
     width: calc($ancho / 3);
+  }
+
+  li {
+    color: $colorP;
   }
 }
 
@@ -82,11 +90,9 @@ i {
 }
 
 #contacto p {
-  justify-content: space-around;
-  display: flex;
-  width: calc($ancho / 2);
-  height: auto;
-  color: rgb(218, 193, 161);
-  border-radius: 5px;
+  columns: 100px 1;
+  height: fit-content;
+  column-gap: 30px;
   background-color: rgba(165, 42, 42, 0.243);
+  border-radius: 10px;
 }
