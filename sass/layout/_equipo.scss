@@ -1,0 +1,32 @@
+#mainTeam {
+  justify-content: space-around;
+  width: $ancho;
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    display: contents;
+    overflow: auto;
+    width: calc($ancho / 3);
+  }
+
+  li {
+    color: $colorP;
+  }
+}
+
+i {
+  justify-content: center;
+  color: $colorP;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+
+ul {
+  color: $colorP;
+
+  li {
+    list-style: none;
+    color: rgb(218, 193, 161);
+  }
+}
