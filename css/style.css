@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
