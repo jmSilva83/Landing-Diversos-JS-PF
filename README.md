@@ -4,7 +4,7 @@
 
 La aplicación está desplegada en Vercel y se puede acceder a ella en la siguiente URL:
 
-[https://diversos.vercel.app/](https://diversos.vercel.app/)
+<a href="https://diversos.vercel.app/" target="_blank">https://diversos.vercel.app/</a>
 
 ## Descripción
 
