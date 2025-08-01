@@ -1,5 +1,11 @@
 # Diversos
 
+## Despliegue
+
+La aplicación está desplegada en Vercel y se puede acceder a ella en la siguiente URL:
+
+[https://diversos.vercel.app/](https://diversos.vercel.app/)
+
 ## Descripción
 
 "Diversos" es un sitio web informativo dedicado a la educación especial. Proporciona información sobre diversos diagnósticos, tratamientos, el equipo de profesionales y cómo contactarlos. El objetivo del sitio es ser un recurso para padres y tutores que buscan apoyo y orientación en el campo de la educación especial.
