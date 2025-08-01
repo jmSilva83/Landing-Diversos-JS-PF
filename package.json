@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/check-links ./**/*.html",
+    "sass": "sass sass/main.scss css/style.css"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "educacion",
+    "especial",
+    "diversos",
+    "diagnosticos",
+    "tratamientos"
+  ],
+  "author": "Juan Manuel Silva",
+  "license": "MIT",
+  "description": "Sitio web informativo sobre educación especial, diagnósticos y tratamientos.",
+  "devDependencies": {
+    "check-links": "^3.0.1",
+    "html-validator-cli": "^7.0.1",
+    "sass": "^1.89.2"
+  }
 }
